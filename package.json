@@ -1,0 +1,28 @@
+{
+  "name": "rabbitmq-nodejs",
+  "version": "1.0.0",
+  "description": "Aprendendo e estudando o RabbitMQ",
+  "main": "source/app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js"
+  },
+  "type": "module",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Lucas-Pontes-Soares/RabbitMQ-NodeJS.git"
+  },
+  "author": "Lucas Pontes Soares",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Lucas-Pontes-Soares/RabbitMQ-NodeJS/issues"
+  },
+  "homepage": "https://github.com/Lucas-Pontes-Soares/RabbitMQ-NodeJS#readme",
+  "dependencies": {
+    "amqplib": "^0.10.3",
+    "body-parser": "^1.20.2",
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "nodemon": "^3.0.1"
+  }
+}
